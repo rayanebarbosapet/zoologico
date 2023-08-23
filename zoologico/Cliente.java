@@ -3,7 +3,7 @@ package zoologico;
 public class Cliente {
 
     private String tpIngresso;
-    
+
     
     public Cliente(String nome, String cpf, String endereco, String tpIngresso) {
 

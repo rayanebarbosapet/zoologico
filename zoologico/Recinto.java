@@ -10,6 +10,8 @@ public class Recinto {
     public Recinto(String nome, String animal) {
         this.nome = nome;
         this.animal = animal;
+        this.id = id;
+        this.idSetor = idSetor;
     }
 
     public String getNome() {
@@ -23,6 +25,21 @@ public class Recinto {
     }
     public void setAnimal(String animal) {
         this.animal = animal;
+    }
+    public Funcionario getId() {
+        return id;
+    }
+
+    public void setId(Funcionario id) {
+        this.id = id;
+    }
+
+    public Setor getIdSetor() {
+        return idSetor;
+    }
+
+    public void setIdSetor(Setor idSetor) {
+        this.idSetor = idSetor;
     }
 
     
