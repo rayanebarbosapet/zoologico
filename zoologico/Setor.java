@@ -2,18 +2,19 @@ package zoologico;
 
 public class Setor {
 
-    private String mome;
+    private int id;
+    private String nome;
 
     public Setor(String mome) {
-        this.mome = mome;
+        this.nome = nome;
     }
 
-    public String getMome() {
-        return mome;
+    public String getnome() {
+        return nome;
     }
 
-    public void setMome(String mome) {
-        this.mome = mome;
+    public void setnome(String nome) {
+        this.nome = nome;
     }
     
 

@@ -4,6 +4,8 @@ public class Recinto {
 
     private String nome;
     private String animal;
+    private Funcionario id;
+    private Setor idSetor;
    
     public Recinto(String nome, String animal) {
         this.nome = nome;
